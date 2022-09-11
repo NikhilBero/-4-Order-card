@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+background: #bdd7e2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order-summary-card{
+  
+    width: 22%;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+background-color: rgb(255, 255, 255); 
+
+   align-items: center;
+ 
+}
+.card-img{
+  width: 100%;
+   border-radius: 15px 15px 0 0;
+   
+}
+.order-info{
+    margin: 5% 10%;
+text-align: center;
+align-items: center;
+
+}
+.order-title{
+    font-size: 1.3rem;
+    margin: 3% ;
+}
+.order-description{
+    font-size: 0.7rem;
+    margin: 3%;
+    padding: 0 5%;
+}
+.product-plan{
+    display: flex;
+   
+    align-items: center;
+    margin: 10% 0;
+    justify-content:flex-start;
+}
+.icons{
+    background-color: #bdd7e2;
+    border-radius: 100%;
+    padding: 0.6rem;
+    margin: 0 0.7rem ;
+}
+.plan-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.plan-cat{
+    font-size: 0.7rem;
+}
+.plan-price{
+    font-size: 0.7rem;
+}
+.select-plan{
+    margin-left: auto;
+    margin-right: 3%;
+    font-size: 0.8rem;
+}
+.order-btn{
+    display: flex;
+    flex-direction: column;
+margin: 5% 0;
+ 
+}
+.btn{
+    margin: 2% 0;
+    padding:4% 3%;
+    border-radius: 7px;
+    border: 0;
+    font-size: 0.6rem;
+}
+.proceed-btn{
+    background-color: blue;
+    color: white;
+    box-shadow: 10% 0 0 0 rgb(116, 115, 115);
+}
+.cancel-btn{
+color: rgb(116, 115, 115);
+}
+
+@media screen and (max-width: 1000px) {
+    .order-summary-card{
+        width: 25%;
+    }
+    .plan-info{
+        justify-content: space-between;
+    }
+    .plan-cat{
+        font-size: 0.7rem;
+    }
+    .plan-price{
+        font-size: o.6rem;
+    }
+
+  }
